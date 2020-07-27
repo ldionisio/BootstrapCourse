@@ -2,6 +2,23 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$background-floral: floralwhite;
+
+
+.modal-header{
+    background-color: $background-dark;
+}
+.modal-body{
+    background-color: $background-pale;
+}
+
+.modal-title{
+    color: $background-floral;
+}
+
+.close{
+    color: $background-floral;
+}
 
 // Height variables
 $carousel-item-height: 300px;
